@@ -1,0 +1,33 @@
+[data-aos="custom-zoom"] {
+  opacity: 0;
+  transform: translateX(-95px) scale(0.6);
+  transition: .8s;
+  &.aos-animate {
+    opacity: 1;
+    transform: translateX(-95px) scale(1);
+  }
+}
+
+@media (max-width: 827px) {
+  [data-aos="custom-zoom"] {
+    opacity: 0;
+    transform: translate(85px, -80px) scale(0.6);
+    transition: .8s;
+    &.aos-animate {
+      opacity: 1;
+      transform: translate(85px, -80px) scale(1);
+    }
+  }
+}
+
+@media (max-width: 631px) {
+  [data-aos="custom-zoom"] {
+    opacity: 0;
+    transform: translate(85px, -80px) scale(0.6);
+    transition: .8s;
+    &.aos-animate {
+      opacity: 1;
+      transform: translate(0) scale(1);
+    }
+  }
+}

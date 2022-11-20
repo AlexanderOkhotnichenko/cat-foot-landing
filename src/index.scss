@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Oswald;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html, body {
+ min-width: 320px;
+ scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1;
+  &.--show {
+    overflow: hidden;
+  }
+}
+
+.App {
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+[class*="__container"] {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.scroll-fix {
+  position: absolute;
+  width: calc((100vw - 100%));
+}

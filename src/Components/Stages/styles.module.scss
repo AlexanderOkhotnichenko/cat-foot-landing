@@ -1,0 +1,125 @@
+.page_stages {
+  position: relative;
+  &__container {
+    padding: 35px 15px 35px 15px !important;
+  }
+}
+
+.content {
+  &__title {
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 32px;
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+  }
+}
+
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  padding-top: 40px;
+  padding-bottom: 57px;
+  &__number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--light-gray);
+    font-size: 280px;
+    z-index: -1;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: var(--light-green);
+    & svg {
+      width: 32px;
+      height: 32px;
+      fill: var(--white);
+    }
+  }
+  &__description {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial;
+    color: var(--dark-gray);
+  }
+}
+
+@media (max-width: 1025px) {
+  .content__items {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 864px) {
+  .content {
+    &__items {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 37px;
+    }
+  }
+  .item {
+    max-width: 245px;
+  }
+}
+
+@media (max-width: 769px) {
+  .page_stages {
+    &__container {
+      padding: 22.5px 30px 47px 30px !important;
+    }
+  }
+}
+
+@media (max-width: 541px) {
+  .page_stages__container {
+    padding: 13.5px 30px 42px 30px !important;
+  }
+  .content {
+    &__title {
+      font-size: 36px;
+      line-height: 40px;
+      margin-bottom: 38px;
+    }
+    &__items {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+  }
+  .item {
+    max-width: none;
+    padding: 0;
+    flex-direction: inherit;
+    gap: 20px;
+    &::before {
+      content: none;
+    }
+    &__icon {
+      min-width: 60px;
+      height: 60px;
+    }
+    &__description {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    &__number {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  .page_stages__container {
+    padding: 13.5px 20px 42px 20px !important;
+  }
+}

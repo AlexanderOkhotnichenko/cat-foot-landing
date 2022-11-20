@@ -1,0 +1,50 @@
+.section_scroll_up {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 0 0 0 4px var(--light-gray_3);
+  border-radius: 50%;
+  z-index: 101;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--speed_03) cubic-bezier(.68,0,.27,1.55);
+  transform: translateY(40px);
+  visibility: hidden;
+  opacity: 0;
+  cursor: pointer;
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  &:hover svg {
+    fill: var(--light-green);
+  }
+  & svg {
+    transition: var(--speed_03) cubic-bezier(.68,0,.27,1.55);
+    font-size: 23px;
+    fill: var(--light-gray_3);
+  }
+}
+
+.circle_svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  stroke: var(--light-green);
+  stroke-width: 4px;
+  transition: var(--speed_03);
+  transform: rotate(-90deg);
+  stroke-dasharray: 146.70338439941406;
+  stroke-dashoffset: 146.70338439941406;
+}
+
+@media (max-width: 541px) {
+  .section_scroll_up {
+    right: 20px;
+    bottom: 20px;
+  }
+}

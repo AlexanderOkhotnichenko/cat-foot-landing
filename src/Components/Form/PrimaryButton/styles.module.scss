@@ -1,0 +1,22 @@
+.primary_button {
+  width: 100%;
+  padding: 7px 20px;
+  flex: 0 1 50%;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: var(--light-green);
+  height: 52px;
+  transition: border-radius var(--speed_03), background-color var(--speed_05);
+  &:hover {
+    background-color: var(--green);
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 415px) {
+  .primary_button {
+    font-size: 16px;
+  }
+}

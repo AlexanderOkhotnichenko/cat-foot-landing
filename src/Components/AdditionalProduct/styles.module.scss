@@ -1,0 +1,222 @@
+.page_additionalproduct {
+  position: relative;
+  &__container {
+    padding: 0 15px 80px 15px !important;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+.content {
+  &__row {
+    display: flex;
+    gap: 80px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    padding: 15px 0;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid var(--light-gray_4);
+    padding-bottom: 15px;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+  &__gift {
+    min-width: 245px;
+    height: auto;
+    background-image: url("../../../public/img/additional-product/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+  }
+}
+
+.item {
+  width: 100%;
+  padding-bottom: 17px;
+  &__wrapper {
+    display: flex;
+    width: 100%;
+  }
+  &__name {
+    flex: 0 1 50%;
+    padding-right: 40px;
+    min-width: 200px;
+    & h5 {
+      color: var(--black_);
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+  }
+  &__description {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 50%;
+    gap: 20px;
+    & span {
+      display: block;
+      color: var(--dark-gray);
+      font-family: Arial;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      min-width: 80px;
+    }
+  }
+  &__green_button {
+    height: 40px;
+    background-color: var(--light-green);
+    transition: border-radius var(--speed_03), background-color var(--speed_05);
+    padding: 7px 26px;
+    &:hover {
+      background-color: var(--green);
+      border-radius: 5px;
+    }
+    & span {
+      display: block;
+      width: 192px;
+      text-transform: uppercase;
+      color: var(--white);
+      line-height: 20px;
+      font-size: 16px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.gift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+    width: 100%;
+  }
+  &__icon svg {
+    width: 80px;
+    height: 83px;
+    fill: var(--white);
+  }
+  &__description {
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+    color: var(--white);
+    line-height: 20px;
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .content__row {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 976px) {
+  .content {
+    &__row {
+      flex-direction: column;
+      gap: 70px;
+    }
+    &__item {
+      flex-direction: column;
+      padding: 25px 35px;
+      border: 1px solid var(--light-gray_4);
+      margin: 0 !important;
+      &:not(:last-child) {
+        border-bottom: 0;
+      }
+    }
+    &__gift {
+      background-image: url("../../../public/img/additional-product/background-tablet.png");
+    }
+  }
+  .gift__content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .item {
+    &__name {
+      flex: 0 1 60%;
+    }
+    &__description {
+      flex: 0 1 40%;
+    }
+    &__green_button {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .page_additionalproduct {
+    &__container {
+      padding: 0 15px 15px 15px !important;
+    }
+    &__content {
+      gap: 30px;
+    }
+  }
+  .content {
+    &__row {
+      gap: 40px;
+    }
+    &__item {
+      border: 0;
+      border-top: 1px solid var(--light-gray_4);
+      border-bottom: 1px solid var(--light-gray_4);
+      padding: 15px 0 20px 0;
+      gap: 15px;
+    }
+    &__list {
+      padding: 0;
+    }
+    &__title {
+      padding: 0;
+      & h1 {
+        font-size: 24px;
+        padding: 0 22px;
+      }
+    }
+  }
+  .item {
+    &__wrapper {
+      flex-direction: column;
+      gap: 15px;
+    }
+    &__name,
+    &__description {
+      flex: 0 1 100%;
+    }
+    &__name h5 {
+      font-size: 16px;
+    }
+    &__description span {
+      font-size: 14px;
+    }
+  }
+  .content__gift {
+    height: 289px;
+    background-image: url("../../../public/img/additional-product/background-mobile.png");
+  }
+  .gift__content {
+    flex-direction: column;
+  }
+}

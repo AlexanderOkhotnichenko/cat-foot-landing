@@ -1,0 +1,26 @@
+[data-aos="custom-aos"] {
+  transform: scale(0.6) translate(-50%, 0);
+  opacity: 0;
+  &.aos-animate {
+    transform: scale(1) translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
+[data-aos="custom-aos-2"] {
+  transform: translateY(-30px);
+  opacity: 0;
+  &.aos-animate {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+[data-aos="custom-aos-3"] {
+  width: 0;
+  opacity: 0;
+  &.aos-animate {
+    width: 100%;
+    opacity: 1;
+  }
+}

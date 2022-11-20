@@ -1,0 +1,7 @@
+[data-aos="custom"] {
+  transition-property: transform;
+  transform: translateX(100%);
+  &.aos-animate {
+    transform: translateX(0);
+  }
+}

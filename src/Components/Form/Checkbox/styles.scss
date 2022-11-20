@@ -1,0 +1,69 @@
+.form-label-checkbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  & svg {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    width: 26px;
+    height: 26px;
+    transform: translate(0, -50%);
+    & path {
+      transition: var(--speed_05);
+      stroke: var(--light-green);
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dashoffset: 54.48554229736328;
+      stroke-dasharray: 54.48554229736328;
+    }
+  }
+  &::before {
+    content: "";
+    display: block;
+    position: relative;
+    min-width: 40px;
+    height: 40px;
+    outline: 1px solid var(--light-gray_4);
+  }
+  & span {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--black);
+    text-transform: uppercase;
+    line-height: 29.64px;
+  }
+}
+
+.form-input-checkbox {
+  display: none;
+  &:checked ~ .form-label-checkbox > svg > path {
+    animation: check 1s forwards linear;
+    @keyframes check {
+      75% {
+        stroke-dashoffset: 0;
+        fill: var(--white);
+        transform: translateY(0);
+      }
+      90% {
+        stroke-dashoffset: 0;
+        fill: var(--light-green);
+        transform: translateY(-3px);
+      }
+      100% {
+        stroke-dashoffset: 0;
+        fill: var(--light-green);
+        transform: translateY(0);
+      }
+    }
+  }
+}
+
+@media (max-width: 587px) {
+  .form-label-checkbox span {
+    font-size: 16px;
+  }
+}

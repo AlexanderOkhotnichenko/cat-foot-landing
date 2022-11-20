@@ -1,0 +1,269 @@
+.page_products {
+  position: relative;
+  &__container {
+    padding: 82px 15px 35px 15px !important;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  &__item {
+    background-color: var(--light-gray);
+    padding: 41px 52px 55px 52px;
+  }
+}
+
+.item {
+  max-width: 570px;
+  &:first-child {
+    flex: 0 1 50%;
+  }
+  &:last-child {
+    flex: 0 1 50%;
+  }
+  &__box {
+    position: relative;
+  }
+}
+
+hr {
+  height: 2px;
+  background-color: var(--gray);
+  display: none;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  &__image {
+    position: relative;
+    min-width: 100px;
+    height: 100px;
+    background-color: var(--light-green);
+    border-radius: 50%;
+    & img {
+      position: absolute;
+      left: 50%;
+    }
+  }
+  &__title_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+  }
+  &__title {
+    font-weight: normal;
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+  &__description {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+    width: fit-content;
+    background: none;
+    transition: color var(--speed_03);
+    cursor: pointer;
+    &:hover {
+      color: var(--light-green);
+      & svg {
+        transform: translateX(10px);
+      }
+    }
+    & span {
+      display: block;
+      font-size: 20px;
+      line-height: 29.64px;
+      text-transform: uppercase;
+    }
+    & svg {
+      transition: transform var(--speed_03);
+      font-size: 32px;
+    }
+  }
+}
+
+.pro_cat_img {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 134px;
+  max-height: 56px;
+}
+
+.slim_cat_img {
+  top: -6px;
+  transform: translate(-50%, 0);
+  max-width: 70px;
+  max-height: 97px;
+}
+
+.slim,
+.pro {
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.slim {
+  column-gap: 62px;
+}
+
+.pro {
+  column-gap: 47px;
+}
+
+@media (max-width: 926px) {
+  .content {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 864px) {
+  .content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .item {
+    max-width: none;
+    padding: 77px 62px 53px 53px;
+    &:first-child {
+      flex: 0 1 100%;
+    }
+    &:last-child {
+      flex: 0 1 100%;
+    }
+  }
+  .box {
+    padding-right: 250px;
+    &__image {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      min-width: 200px;
+      height: 200px;
+    }
+    &__description {
+      margin-bottom: 25px;
+    }
+    &__title_wrapper {
+      min-height: fit-content;
+    }
+  }
+  .slim {
+    margin: 0;
+  }
+  .slim_cat_img {
+    top: -12px;
+    max-width: 140px;
+    max-height: 192px;
+  }
+  .pro_cat_img {
+    max-width: 268px;
+    max-height: 112px;
+  }
+}
+
+@media (max-width: 769px) {
+  .page_products__container {
+    padding: 0px 30px 22.5px 30px !important;
+  }
+  .box__description {
+    max-width: 377px;
+  }
+}
+
+@media (max-width: 631px) {
+  .item {
+    padding: 20px;
+  }
+  .box {
+    padding-right: 0;
+    &__image {
+      position: inherit;
+      top: 0;
+      left: 0;
+      right: inherit;
+      transform: none;
+      min-width: 100px;
+      height: 100px;
+    }
+    &__description {
+      max-width: none;
+    }
+  }
+  .slim,
+  .pro {
+    gap: 77px;
+    justify-content: start;
+  }
+  .slim_cat_img {
+    top: -6px;
+    max-width: 70px;
+    max-height: 97px;
+  }
+  .pro_cat_img {
+    max-width: 134px;
+    max-height: 56px;
+  }
+}
+
+@media (max-width: 445px) {
+  .slim,
+  .pro {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  hr {
+    display: block;
+  }
+  .page_products__container {
+    padding: 11px 20px 13.5px 20px !important;
+  }
+  .content {
+    gap: 20px;
+  }
+  .box {
+    gap: 22px;
+    &__image {
+      position: inherit;
+      min-width: 50px;
+      height: 50px;
+    }
+    &__title {
+      font-size: 24px;
+    }
+    &__description {
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0;
+    }
+    &__button {
+      column-gap: 15px;
+    }
+  }
+  .slim,
+  .pro {
+    min-height: 50px;
+  }
+  .slim_cat_img {
+    top: -6px;
+    max-width: 36px;
+    max-height: 50px;
+  }
+  .pro_cat_img {
+    max-width: 67px;
+    max-height: 28px;
+  }
+}

@@ -1,0 +1,17 @@
+.form-input {
+  padding: 12px 20px;
+  width: 100%;
+  border: 1px solid var(--light-gray_6);
+  transition: border-color var(--speed_03), box-shadow var(--speed_03), border-radius var(--speed_03);
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--dark-gray);
+  text-transform: uppercase;
+  &:focus {
+    border-radius: 8px;
+  }
+  &.error {
+    border-color: var(--color-error-red);
+    box-shadow: 0 0 5px var(--color-error-red);
+  }
+}

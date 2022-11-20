@@ -1,0 +1,16 @@
+.form_title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.64px;
+  color: var(--dark-gray);
+  text-transform: uppercase;
+  white-space:nowrap;
+  margin: auto 0;
+}
+
+@media (max-width: 415px) {
+  .form_title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
