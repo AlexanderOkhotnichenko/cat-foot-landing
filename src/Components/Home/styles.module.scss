@@ -1,7 +1,7 @@
 .page_home {
   position: relative;
   &__background {
-    background-image: url(../../../public/img/home/background.png);
+    background-image: url(../../../public/img/home/background.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 45.3%;
@@ -135,7 +135,7 @@
 @media (max-width: 415px) {
   .page_home {
     &__background {
-      background-image: url(../../../public/img/home/background-mobile.png);
+      background-image: url(../../../public/img/home/background_mobile.webp);
       background-size: cover;
       width: 100%;
       display: block;

@@ -12,7 +12,7 @@ export function Catallog() {
     {
       key: 1,
       img: {
-        src: "./img/catallog/catalog-1-500.png",
+        src: "./img/catallog/catalog_1_500.webp",
         alt: "Cat Energy PRO 500 г",
       },
       title: "Cat Energy PRO 500 г",
@@ -35,7 +35,7 @@ export function Catallog() {
     {
       key: 2,
       img: {
-        src: "./img/catallog/catalog-1-1000.png",
+        src: "./img/catallog/catalog_1_1000.webp",
         alt: "Cat Energy PRO 1000 г",
       },
       title: "Cat Energy PRO 1000 г",
@@ -58,7 +58,7 @@ export function Catallog() {
     {
       key: 3,
       img: {
-        src: "./img/catallog/catalog-2-500.png",
+        src: "./img/catallog/catalog_2_500.webp",
         alt: "Cat Energy PRO 500 г",
       },
       title: "Cat Energy PRO 500 г",
@@ -81,7 +81,7 @@ export function Catallog() {
     {
       key: 4,
       img: {
-        src: "./img/catallog/catalog-2-1000.png",
+        src: "./img/catallog/catalog_2_1000.webp",
         alt: "Cat Energy PRO 1000 г",
       },
       title: "Cat Energy PRO 1000 г",
@@ -104,7 +104,7 @@ export function Catallog() {
     {
       key: 5,
       img: {
-        src: "./img/catallog/catalog-3-500.png",
+        src: "./img/catallog/catalog_3_500.webp",
         alt: "Cat Energy Slim 500 г",
       },
       title: "Cat Energy Slim 500 г",
@@ -127,7 +127,7 @@ export function Catallog() {
     {
       key: 6,
       img: {
-        src: "./img/catallog/catalog-3-1000.png",
+        src: "./img/catallog/catalog_3_1000.webp",
         alt: "Cat Energy Slim 500 г",
       },
       title: "Cat Energy Slim 1000 г",
@@ -150,7 +150,7 @@ export function Catallog() {
     {
       key: 7,
       img: {
-        src: "./img/catallog/catalog-4-500.png",
+        src: "./img/catallog/catalog_4_500.webp",
         alt: "Cat Energy Slim 500 г",
       },
       title: "Cat Energy Slim 500 г",

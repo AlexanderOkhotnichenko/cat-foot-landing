@@ -34,7 +34,7 @@
   &__gift {
     min-width: 245px;
     height: auto;
-    background-image: url("../../../public/img/additional-product/background.png");
+    background-image: url("../../../public/img/additional-product/background.webp");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 40px;
@@ -145,7 +145,7 @@
       }
     }
     &__gift {
-      background-image: url("../../../public/img/additional-product/background-tablet.png");
+      background-image: url("../../../public/img/additional-product/background_tablet.webp");
     }
   }
   .gift__content {
@@ -214,7 +214,7 @@
   }
   .content__gift {
     height: 289px;
-    background-image: url("../../../public/img/additional-product/background-mobile.png");
+    background-image: url("../../../public/img/additional-product/background_mobile.webp");
   }
   .gift__content {
     flex-direction: column;

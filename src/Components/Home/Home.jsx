@@ -16,7 +16,7 @@ export function Home() {
             <Link to="/form" className={ styles.box__button } data-aos="fade-up" data-aos-delay="900" data-aos-duration="600">подобрать программу</Link>
           </div>
           <div className={`${ styles.content__image } ${ styles.image }`} data-aos="custom-zoom" data-aos-delay="400" data-aos-duration="700">
-            <img src="./img/home/cat-energy.png" alt="Cat energy" />
+            <img src="./img/home/cat_energy.webp" alt="Cat energy" />
           </div>
           <Link to="/form" className={`${styles.box__button} ${styles.button_mobile}`}>подобрать программу</Link>
         </div>

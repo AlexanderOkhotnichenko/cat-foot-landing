@@ -14,7 +14,7 @@ export function Products() {
             <div className={`${styles.item__box} ${styles.box}`}>
               <div className={ styles.slim }>
                 <div className={styles.box__image} data-aos="products-custom-zoom" data-aos-delay="600" data-aos-duration="800">
-                  <img className={ styles.slim_cat_img } src="./img/products/cat-slim.png" alt="Cat Slim" />
+                  <img className={ styles.slim_cat_img } src="./img/products/cat_slim.webp" alt="Cat Slim" />
                 </div>
                 <div className={styles.box__title_wrapper} data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">
                   <h1 className={styles.box__title}>похудение</h1>
@@ -36,7 +36,7 @@ export function Products() {
             <div className={`${styles.item__box} ${styles.box}`}>
               <div className={ styles.pro }>
                 <div className={styles.box__image} data-aos="products-custom-zoom" data-aos-delay="600" data-aos-duration="800">
-                  <img className={ styles.pro_cat_img } src="./img/products/cat-pro.png" alt="Cat Pro" />
+                  <img className={ styles.pro_cat_img } src="./img/products/cat_pro.webp" alt="Cat Pro" />
                 </div>
                 <div className={styles.box__title_wrapper} data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">
                   <h1 className={styles.box__title}>набор массы</h1>
