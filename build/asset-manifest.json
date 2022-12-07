@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-cat-energy-landing/static/css/main.8ffdc760.css",
+    "main.js": "/react-cat-energy-landing/static/js/main.83a1439f.js",
+    "static/media/ArialMT.woff": "/react-cat-energy-landing/static/media/ArialMT.b6a0f7f974b6f883215b.woff",
+    "static/media/ArialMT.woff2": "/react-cat-energy-landing/static/media/ArialMT.bb16a09ec95a0e79aeba.woff2",
+    "static/media/Oswald-Regular.woff": "/react-cat-energy-landing/static/media/Oswald-Regular.5d91ff88c8492f6662b4.woff",
+    "static/media/Oswald-Regular.woff2": "/react-cat-energy-landing/static/media/Oswald-Regular.13d2904e1fab6e04df9d.woff2",
+    "static/media/background_tablet.webp": "/react-cat-energy-landing/static/media/background_tablet.a7f40ae341c424306e16.webp",
+    "static/media/background_mobile.webp": "/react-cat-energy-landing/static/media/background_mobile.f28d94bd9738fae0a5b0.webp",
+    "static/media/background.webp": "/react-cat-energy-landing/static/media/background.3fcd327558423fa3e581.webp",
+    "index.html": "/react-cat-energy-landing/index.html",
+    "main.8ffdc760.css.map": "/react-cat-energy-landing/static/css/main.8ffdc760.css.map",
+    "main.83a1439f.js.map": "/react-cat-energy-landing/static/js/main.83a1439f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ffdc760.css",
+    "static/js/main.83a1439f.js"
+  ]
+}
