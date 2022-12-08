@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cat-foot-landing/static/css/main.e64d2dbe.css",
+    "main.js": "/cat-foot-landing/static/js/main.f294f4d0.js",
+    "static/media/ArialMT.woff": "/cat-foot-landing/static/media/ArialMT.b6a0f7f974b6f883215b.woff",
+    "static/media/ArialMT.woff2": "/cat-foot-landing/static/media/ArialMT.bb16a09ec95a0e79aeba.woff2",
+    "static/media/Oswald-Regular.woff": "/cat-foot-landing/static/media/Oswald-Regular.5d91ff88c8492f6662b4.woff",
+    "static/media/Oswald-Regular.woff2": "/cat-foot-landing/static/media/Oswald-Regular.13d2904e1fab6e04df9d.woff2",
+    "static/media/background_tablet.webp": "/cat-foot-landing/static/media/background_tablet.a7f40ae341c424306e16.webp",
+    "static/media/background_mobile.webp": "/cat-foot-landing/static/media/background_mobile.f28d94bd9738fae0a5b0.webp",
+    "static/media/background.webp": "/cat-foot-landing/static/media/background.3fcd327558423fa3e581.webp",
+    "index.html": "/cat-foot-landing/index.html",
+    "main.e64d2dbe.css.map": "/cat-foot-landing/static/css/main.e64d2dbe.css.map",
+    "main.f294f4d0.js.map": "/cat-foot-landing/static/js/main.f294f4d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e64d2dbe.css",
+    "static/js/main.f294f4d0.js"
+  ]
+}
