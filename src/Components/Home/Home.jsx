@@ -13,12 +13,12 @@ export function Home() {
           <div className={`${ styles.content__box } ${ styles.box }`}>
             <h1 className={ styles.box__title } data-aos="fade-right" data-aos-delay="700" data-aos-duration="800">Функциональное питание для котов</h1>
             <h3 className={ styles.box__title } data-aos="fade-right" data-aos-delay="800" data-aos-duration="800">Занялся собой? Займись котом!</h3>
-            <Link to="/form" className={ styles.box__button } data-aos="fade-up" data-aos-delay="900" data-aos-duration="600">подобрать программу</Link>
+            <Link to="https://alexanderokhotnichenko.github.io/form" className={ styles.box__button } data-aos="fade-up" data-aos-delay="900" data-aos-duration="600">подобрать программу</Link>
           </div>
           <div className={`${ styles.content__image } ${ styles.image }`} data-aos="custom-zoom" data-aos-delay="400" data-aos-duration="700">
-            <img src="./img/home/cat_energy.webp" alt="Cat energy" />
+            <img src="https://alexanderokhotnichenko.github.io/cat-foot-landing/img/home/cat_energy.webp" alt="Cat energy" />
           </div>
-          <Link to="/form" className={`${styles.box__button} ${styles.button_mobile}`}>подобрать программу</Link>
+          <Link to="https://alexanderokhotnichenko.github.io/form" className={`${styles.box__button} ${styles.button_mobile}`}>подобрать программу</Link>
         </div>
       </div>
     </section>

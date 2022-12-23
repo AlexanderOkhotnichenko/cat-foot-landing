@@ -65,7 +65,7 @@ export function AdditionalProduct() {
               <div className={ styles.gift__content }>
                 <div className={ styles.gift__icon }>
                   <svg>
-                    <use xlinkHref="./sprites.svg#gift"></use>
+                    <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#gift"></use>
                   </svg>
                 </div>
                 <p className={ styles.gift__description }>Закажите все и получите чехол для кота в подарок!</p>

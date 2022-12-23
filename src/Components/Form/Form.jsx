@@ -107,7 +107,7 @@ export function Form() {
                         name="firstName"
                       />
                       <svg className={styles.form_input_icon}>
-                        <use xlinkHref="./sprites.svg#email"></use>
+                        <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#email"></use>
                       </svg>
                     </div>
                     {errors?.firstName && (
@@ -216,7 +216,7 @@ export function Form() {
                         name="email"
                       />
                       <svg>
-                        <use xlinkHref="./sprites.svg#email"></use>
+                        <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#email"></use>
                       </svg>
                     </div>
                     {errors?.email && (
@@ -241,7 +241,7 @@ export function Form() {
                         name="telephone"
                       />
                       <svg>
-                        <use xlinkHref="./sprites.svg#telephone"></use>
+                        <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#telephone"></use>
                       </svg>
                     </div>
                     {errors?.telephone && (

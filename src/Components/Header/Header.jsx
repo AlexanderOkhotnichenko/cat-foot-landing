@@ -29,7 +29,7 @@ export function Header() {
     <header ref={headerRef} className={`${styles.header} ${scrollHeader ? styles.fixed : ''}`} >
       <div className={ styles.header__container }>
         <div className={`${styles.header__content} ${styles.content}`}>
-          <Link to="/" className={`${styles.content__logo} ${ styles.logo }`}>
+          <Link to="https://alexanderokhotnichenko.github.io/cat-foot-landing/" className={`${styles.content__logo} ${ styles.logo }`}>
             <div className={ styles.logo__desktop }>
               <svg>
                 <use xlinkHref="./sprites.svg#logo-desktop"></use>
@@ -55,9 +55,9 @@ export function Header() {
           </Link>
           <nav className={`${styles.content__menu} ${styles.menu} ${isToggle ? styles.open : ''}`}>
             <ul className={ styles.menu__list }>
-              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="/">главная</Link></li>
-              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="/catallog">каталог продукции</Link></li>
-              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="/form">подбор программы</Link></li>
+              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="https://alexanderokhotnichenko.github.io/cat-foot-landing/">главная</Link></li>
+              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="https://alexanderokhotnichenko.github.io/cat-foot-landing/catallog">каталог продукции</Link></li>
+              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="https://alexanderokhotnichenko.github.io/cat-foot-landing/form">подбор программы</Link></li>
             </ul>
           </nav>
           <button className={`${styles.content__button} ${isToggle ? styles.active : ''}`} onClick={ handleClick }>

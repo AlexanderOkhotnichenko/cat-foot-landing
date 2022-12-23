@@ -58,8 +58,8 @@ export function Example() {
           </div>
           <div className={`${styles.content__split} ${styles.split}`}>
             <div className={styles.split__image} data-aos="fade-up" data-aos-delay="1550" data-aos-duration="800" data-aos-offset="400">
-              <img ref={bigCat} src="./img/example/before_cat.webp" alt="Big Cat"/>
-              <img ref={smallCat} src="./img/example/small_cat.webp" alt="Small Cat"/>
+              <img ref={bigCat} src="https://alexanderokhotnichenko.github.io/cat-foot-landing/img/example/before_cat.webp" alt="Big Cat"/>
+              <img ref={smallCat} src="https://alexanderokhotnichenko.github.io/cat-foot-landing/img/example/small_cat.webp" alt="Small Cat"/>
             </div>
             <div className={ styles.split__range } data-aos="fade-left" data-aos-delay="1750" data-aos-duration="800">
               <span>было</span>

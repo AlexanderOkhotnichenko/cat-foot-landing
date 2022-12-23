@@ -12,7 +12,7 @@ export function Footer() {
           <div className={`${styles.content__logo} ${styles.logo}`} data-aos="fade-right" data-aos-offset="0" data-aos-delay="200" data-aos-duration="800">
             <Link to='/' className={ styles.logo__link }>
               <svg>
-                <use xlinkHref="./sprites.svg#logo-mobile-text"></use>
+                <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#logo-mobile-text"></use>
               </svg>
             </Link>
           </div>
@@ -21,21 +21,21 @@ export function Footer() {
                 <li className={ styles.menu__item }>
                   <Link to='/' className={ styles.menu__link }>
                     <svg>
-                      <use xlinkHref="./sprites.svg#vk"></use>
+                      <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#vk"></use>
                     </svg>
                   </Link>
                 </li>
                 <li className={ styles.menu__item } data-aos="fade-right" data-aos-offset="0" data-aos-delay="400" data-aos-duration="800">
                   <Link to='/' className={ styles.menu__link }>
                     <svg>
-                      <use xlinkHref="./sprites.svg#instagram"></use>
+                      <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#instagram"></use>
                     </svg>
                   </Link>
                 </li>
                 <li className={ styles.menu__item } data-aos="fade-right" data-aos-offset="0" data-aos-delay="500" data-aos-duration="800">
                   <Link to='/' className={ styles.menu__link }>
                     <svg>
-                      <use xlinkHref="./sprites.svg#facebook"></use>
+                      <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#facebook"></use>
                     </svg>
                   </Link>
                 </li>

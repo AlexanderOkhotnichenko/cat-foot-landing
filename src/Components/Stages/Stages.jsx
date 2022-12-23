@@ -14,7 +14,7 @@ export function Stages() {
             <div className={styles.item__number}>1</div>
               <div className={ styles.item__icon }>
                 <svg data-aos-id="castom-aos-svg">
-                  <use xlinkHref="./sprites.svg#leaf"></use>
+                  <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#leaf"></use>
                 </svg>
               </div>
               <p className={ styles.item__description } data-aos="fade-up" data-aos-delay="450" data-aos-duration="850">
@@ -27,7 +27,7 @@ export function Stages() {
               <div className={styles.item__number}>2</div>
               <div className={ styles.item__icon }>
                 <svg>
-                  <use xlinkHref="./sprites.svg#tub"></use>
+                  <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#tub"></use>
                 </svg>
               </div>
               <p className={ styles.item__description } data-aos="fade-up" data-aos-delay="600" data-aos-duration="850">
@@ -40,7 +40,7 @@ export function Stages() {
             <div className={styles.item__number}>3</div>
               <div className={ styles.item__icon }>
                 <svg>
-                  <use xlinkHref="./sprites.svg#eat"></use>
+                  <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#eat"></use>
                 </svg>
               </div>
               <p className={ styles.item__description } data-aos="fade-up" data-aos-delay="750" data-aos-duration="850">
@@ -53,7 +53,7 @@ export function Stages() {
             <div className={styles.item__number}>4</div>
               <div className={ styles.item__icon }>
                 <svg>
-                  <use xlinkHref="./sprites.svg#alarm"></use>
+                  <use xlinkHref="https://alexanderokhotnichenko.github.io/cat-foot-landing/sprites.svg#alarm"></use>
                 </svg>
               </div>
               <p className={ styles.item__description } data-aos="fade-up" data-aos-delay="900" data-aos-duration="850">
