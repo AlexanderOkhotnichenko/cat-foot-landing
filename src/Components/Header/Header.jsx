@@ -56,8 +56,8 @@ export function Header() {
           <nav className={`${styles.content__menu} ${styles.menu} ${isToggle ? styles.open : ''}`}>
             <ul className={ styles.menu__list }>
               <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="/">главная</Link></li>
-              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="/catallog">каталог продукции</Link></li>
-              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="/form">подбор программы</Link></li>
+              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="catallog">каталог продукции</Link></li>
+              <li className={ styles.menu__item }><Link onClick={onCloseMenu} to="form">подбор программы</Link></li>
             </ul>
           </nav>
           <button className={`${styles.content__button} ${isToggle ? styles.active : ''}`} onClick={ handleClick }>

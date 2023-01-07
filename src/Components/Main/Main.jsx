@@ -13,10 +13,9 @@ export function Main() {
       <div className="scroll-fix"></div>
       <Routes>
         <Route exact path="/" element={<PageHome />}></Route>
-        <Route path="/catallog" element={<PageCatallog />}></Route>
-        <Route path="/form" element={<PageForm />}></Route>
+        <Route path="catallog" element={<PageCatallog />}></Route>
+        <Route path="form" element={<PageForm />}></Route>
       </Routes>
-      {/* <Route path='*' element={<PageError />}></Route> */}
     </main>
   );
 }
